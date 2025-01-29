@@ -340,6 +340,60 @@ body{
     font-size: 2em;
 }
 
+@media screen and (max-width: 768px) {
+    .timeline {
+        margin: 30px auto;
+    }
+    .timeline::after {
+        left: 25px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .text-box {
+        font-size: 12px;
+        padding: 15px;
+    }
+    .left-container img, .right-container img {
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow {
+        left: -10px;
+    }
+    .timelineHeading {
+        font-size: 2em;
+    }
+    .landingpage {
+        padding: 15vh 10vh 0 10vh;
+    }
+    .landingpage h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .slider-container {
+        height: auto;
+    }
+    .slider-img {
+        width: 80px;
+    }
+    .slider-img.active {
+        width: 100%;
+        height: auto;
+    }
+    .details h2, .details p {
+        font-size: 18px;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
 .message{
     text-align: center;
     border: #f8f1e4;
